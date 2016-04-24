@@ -3092,7 +3092,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="0" y="0" radius="0.381" width="0" layer="30"/>
 </package>
 <package name="PADBIG">
-<smd name="P$1" x="0" y="0" dx="5" dy="5" layer="1" roundness="100"/>
+<smd name="P$1" x="0" y="0" dx="6.5" dy="6.5" layer="1" roundness="100"/>
 <pad name="P$2" x="0" y="0" drill="2"/>
 </package>
 </packages>
@@ -9964,23 +9964,22 @@ vertical general purpose 1A diode,</description>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uf"/>
+<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="0.1uf"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_PDIP" device=""/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT" value="10k"/>
 <part name="Y2" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="HC49UV" value="16mhz"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="22pf"/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="22pf"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="22pf"/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="22pf"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="2X3_LOCK"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10"/>
 <part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device=""/>
 <part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device=""/>
 <part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device=""/>
 <part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device=""/>
-<part name="TP5" library="SparkFun-Passives" deviceset="TEST-POINT" device=""/>
 <part name="TP6" library="SparkFun-Passives" deviceset="TEST-POINT" device=""/>
 <part name="TP8" library="SparkFun-Passives" deviceset="TEST-POINT" device=""/>
 <part name="TP9" library="SparkFun-Passives" deviceset="TEST-POINT" device=""/>
@@ -9989,7 +9988,7 @@ vertical general purpose 1A diode,</description>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="RV1" library="SparkFun-Electromechanical" deviceset="POT" device="" value="5k"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="SparkFun-DigitalIC" deviceset="SPI_FLASH-X25XX" device=""/>
+<part name="U2" library="SparkFun-DigitalIC" deviceset="SPI_FLASH-X25XX" device="" value="SPI_FLASH"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="3MM"/>
@@ -10001,28 +10000,31 @@ vertical general purpose 1A diode,</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="0.1uF"/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="JST-PTH-VERT"/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK" value="M021X02_NO_SILK"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT" value="1M"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1M"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT" value="1M"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1M"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT" value="1M"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT" value="1M"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1M"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT" value="1M"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT" value="1M"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="T2" library="adafruit" deviceset="2N2222" device="" value="2N"/>
+<part name="T2" library="adafruit" deviceset="2N2222" device="" value="2N2222"/>
 <part name="C1" library="adafruit" deviceset="CPOL-US" device="E2.5-5" value="100uf"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uf"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="104"/>
 <part name="D5" library="_JJG-parts" deviceset="DIODE-VERT" device="DIODE_SM_VERT" value="3.3V"/>
 <part name="D2" library="_JJG-parts" deviceset="DIODE-VERT" device="DIODE_SM_VERT" value="3.3V"/>
 <part name="J2" library="Connector " deviceset="USB-MINIUSB-5P" device="-TH"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="Battery"/>
+<part name="D3" library="_JJG-parts" deviceset="DIODE-VERT" device="DIODE_SM_VERT" value="3.3V"/>
+<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="P+9" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10057,8 +10059,8 @@ vertical general purpose 1A diode,</description>
 <instance part="TP3" gate="G$1" x="114.3" y="93.98" smashed="yes">
 <attribute name="NAME" x="119.38" y="93.98" size="1.778" layer="95"/>
 </instance>
-<instance part="TP1" gate="G$1" x="114.3" y="129.54" smashed="yes">
-<attribute name="NAME" x="119.38" y="129.54" size="1.778" layer="95"/>
+<instance part="TP1" gate="G$1" x="114.3" y="127" smashed="yes">
+<attribute name="NAME" x="119.38" y="127" size="1.778" layer="95"/>
 </instance>
 <instance part="TP2" gate="G$1" x="114.3" y="121.92" smashed="yes">
 <attribute name="NAME" x="119.38" y="121.92" size="1.778" layer="95"/>
@@ -10066,24 +10068,21 @@ vertical general purpose 1A diode,</description>
 <instance part="TP4" gate="G$1" x="114.3" y="119.38" smashed="yes">
 <attribute name="NAME" x="119.38" y="119.38" size="1.778" layer="95"/>
 </instance>
-<instance part="TP5" gate="G$1" x="114.3" y="99.06" smashed="yes">
-<attribute name="NAME" x="119.38" y="99.06" size="1.778" layer="95"/>
-</instance>
 <instance part="TP6" gate="G$1" x="114.3" y="91.44" smashed="yes">
 <attribute name="NAME" x="119.38" y="91.44" size="1.778" layer="95"/>
 </instance>
 <instance part="TP8" gate="G$1" x="114.3" y="96.52" smashed="yes">
 <attribute name="NAME" x="119.38" y="96.52" size="1.778" layer="95"/>
 </instance>
-<instance part="TP9" gate="G$1" x="114.3" y="81.28" smashed="yes">
-<attribute name="NAME" x="119.38" y="81.28" size="1.778" layer="95"/>
+<instance part="TP9" gate="G$1" x="114.3" y="86.36" smashed="yes">
+<attribute name="NAME" x="119.38" y="86.36" size="1.778" layer="95"/>
 </instance>
 <instance part="FTDI" gate="G$1" x="152.4" y="111.76" rot="R180"/>
 <instance part="GND3" gate="1" x="162.56" y="66.04"/>
-<instance part="P+1" gate="1" x="172.72" y="101.6"/>
+<instance part="P+1" gate="1" x="172.72" y="106.68"/>
 <instance part="RV1" gate="G$1" x="142.24" y="76.2" rot="R180"/>
 <instance part="GND6" gate="1" x="142.24" y="66.04"/>
-<instance part="U$1" gate="G$1" x="96.52" y="40.64" smashed="yes">
+<instance part="U2" gate="G$1" x="96.52" y="40.64" smashed="yes">
 <attribute name="NAME" x="96.52" y="43.18" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="88.9" y="30.48" size="1.27" layer="96"/>
 </instance>
@@ -10109,11 +10108,10 @@ vertical general purpose 1A diode,</description>
 <instance part="P+5" gate="1" x="111.76" y="45.72" smashed="yes"/>
 <instance part="GND14" gate="1" x="81.28" y="33.02"/>
 <instance part="P+7" gate="1" x="71.12" y="40.64"/>
-<instance part="JP3" gate="G$1" x="165.1" y="88.9" smashed="yes">
-<attribute name="NAME" x="162.56" y="94.742" size="1.778" layer="95"/>
+<instance part="JP3" gate="G$1" x="165.1" y="93.98" smashed="yes">
+<attribute name="NAME" x="162.56" y="99.822" size="1.778" layer="95"/>
 </instance>
 <instance part="R5" gate="G$1" x="88.9" y="139.7" rot="R270"/>
-<instance part="R7" gate="G$1" x="93.98" y="139.7" rot="R270"/>
 <instance part="R8" gate="G$1" x="96.52" y="139.7" rot="R270"/>
 <instance part="R9" gate="G$1" x="99.06" y="139.7" rot="R270"/>
 <instance part="R10" gate="G$1" x="101.6" y="139.7" rot="R270"/>
@@ -10135,6 +10133,15 @@ vertical general purpose 1A diode,</description>
 </instance>
 <instance part="J2" gate="USB" x="29.21" y="22.86"/>
 <instance part="GND1" gate="1" x="16.51" y="12.7"/>
+<instance part="JP1" gate="G$1" x="172.72" y="81.28" smashed="yes">
+<attribute name="NAME" x="170.18" y="87.122" size="1.778" layer="95"/>
+</instance>
+<instance part="D3" gate="1" x="180.34" y="91.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="178.5874" y="89.916" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="185.6994" y="89.408" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND2" gate="1" x="180.34" y="71.12"/>
+<instance part="P+9" gate="1" x="180.34" y="101.6"/>
 </instances>
 <busses>
 </busses>
@@ -10182,7 +10189,7 @@ vertical general purpose 1A diode,</description>
 <wire x1="147.32" y1="104.14" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -10233,6 +10240,11 @@ vertical general purpose 1A diode,</description>
 <pinref part="RV1" gate="G$1" pin="E"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="81.28" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -10277,14 +10289,14 @@ vertical general purpose 1A diode,</description>
 <wire x1="147.32" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U2" gate="G$1" pin="VCC"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
-<pinref part="U$1" gate="G$1" pin="HOLD"/>
+<pinref part="U2" gate="G$1" pin="HOLD"/>
 <wire x1="111.76" y1="40.64" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="U$1" gate="G$1" pin="WP"/>
+<pinref part="U2" gate="G$1" pin="WP"/>
 <wire x1="71.12" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10294,8 +10306,13 @@ vertical general purpose 1A diode,</description>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="172.72" y1="99.06" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="104.14" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="D3" gate="1" pin="C"/>
+<pinref part="P+9" gate="1" pin="+5V"/>
+<wire x1="180.34" y1="93.98" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -10350,7 +10367,7 @@ vertical general purpose 1A diode,</description>
 <wire x1="78.74" y1="55.88" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="30.48" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="30.48" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="SCK"/>
+<pinref part="U2" gate="G$1" pin="SCK"/>
 <wire x1="116.84" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PB5(SCK)"/>
 <wire x1="86.36" y1="73.66" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
@@ -10383,7 +10400,7 @@ vertical general purpose 1A diode,</description>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="63.5" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="MISO"/>
+<pinref part="U2" gate="G$1" pin="MISO"/>
 <wire x1="81.28" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="40.64" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
@@ -10399,7 +10416,7 @@ vertical general purpose 1A diode,</description>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="114.3" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="55.88" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="MOSI"/>
+<pinref part="U2" gate="G$1" pin="MOSI"/>
 <wire x1="114.3" y1="35.56" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
 <junction x="114.3" y="55.88"/>
 </segment>
@@ -10432,23 +10449,23 @@ vertical general purpose 1A diode,</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="134.62" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="134.62" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="TP9" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PB2(SS/OC1B)"/>
-<wire x1="86.36" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
-<junction x="106.68" y="81.28"/>
+<wire x1="106.68" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
+<wire x1="86.36" y1="86.36" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
+<junction x="106.68" y="86.36"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC1(ADC1)"/>
 <pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="129.54" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="129.54" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="134.62" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
-<junction x="104.14" y="129.54"/>
+<wire x1="104.14" y1="134.62" x2="104.14" y2="127" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="PC2(ADC2)"/>
+<wire x1="86.36" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
+<junction x="104.14" y="127"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -10526,26 +10543,15 @@ vertical general purpose 1A diode,</description>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
-<wire x1="86.36" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="86.36" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="66.04" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="66.04" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="27.94" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="CS"/>
+<pinref part="U2" gate="G$1" pin="CS"/>
 <wire x1="73.66" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PD4(XCK/T0)"/>
-<pinref part="TP5" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="99.06" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="134.62" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
-<junction x="93.98" y="99.06"/>
+<pinref part="U1" gate="G$1" pin="PB2(SS/OC1B)"/>
+<wire x1="86.36" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="81.28" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -10572,16 +10578,12 @@ vertical general purpose 1A diode,</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC2(ADC2)"/>
-<wire x1="86.36" y1="127" x2="109.22" y2="127" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="127" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="124.46" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="144.78" x2="93.98" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="144.78" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="144.78" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -10593,12 +10595,13 @@ vertical general purpose 1A diode,</description>
 <wire x1="106.68" y1="144.78" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
 <junction x="88.9" y="144.78"/>
 <junction x="91.44" y="144.78"/>
-<junction x="93.98" y="144.78"/>
 <junction x="96.52" y="144.78"/>
 <junction x="99.06" y="144.78"/>
 <junction x="101.6" y="144.78"/>
 <junction x="104.14" y="144.78"/>
 <junction x="106.68" y="144.78"/>
+<pinref part="U1" gate="G$1" pin="PC3(ADC3)"/>
+<wire x1="86.36" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -10617,11 +10620,16 @@ vertical general purpose 1A diode,</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="T2" gate="G$1" pin="C"/>
-<wire x1="154.94" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="88.9" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="81.28" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="88.9" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="88.9" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="D3" gate="1" pin="A"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="83.82" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
