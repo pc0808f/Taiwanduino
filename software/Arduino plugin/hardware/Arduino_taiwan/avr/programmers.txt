@@ -1,0 +1,4 @@
+usbtinyisp.name=taiwan_arduino
+usbtinyisp.protocol=taiwan_arduino
+usbtinyisp.program.tool=avrdude
+usbtinyisp.program.extra_params=
