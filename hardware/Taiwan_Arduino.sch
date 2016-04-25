@@ -9983,7 +9983,7 @@ vertical general purpose 1A diode,</description>
 <part name="TP6" library="SparkFun-Passives" deviceset="TEST-POINT" device=""/>
 <part name="TP8" library="SparkFun-Passives" deviceset="TEST-POINT" device=""/>
 <part name="TP9" library="SparkFun-Passives" deviceset="TEST-POINT" device=""/>
-<part name="FTDI" library="SparkFun-Connectors" deviceset="ARDUINO_SERIAL_PROGRAM" device="LOCK"/>
+<part name="FTDI" library="SparkFun-Connectors" deviceset="ARDUINO_SERIAL_PROGRAM" device="LOCK" value="DTR"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="RV1" library="SparkFun-Electromechanical" deviceset="POT" device="" value="5k"/>
