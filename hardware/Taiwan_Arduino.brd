@@ -1131,7 +1131,7 @@ design rules under a new name.</description>
 </element>
 <element name="TP3" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="81.94820625" y="11.284709375" rot="R290"/>
 <element name="TP1" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="39.863778125" y="33.9791" rot="R290"/>
-<element name="TP2" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="29.029615625" y="31.90571875" rot="R290"/>
+<element name="TP2" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="28.729615625" y="31.70571875" rot="R290"/>
 <element name="TP4" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="20.183053125" y="24.260109375" rot="R290"/>
 <element name="TP6" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="63.69446875" y="10.9264875" rot="R290"/>
 <element name="TP8" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="90.575859375" y="17.7033125" rot="R200"/>
@@ -1166,8 +1166,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.62440625" y="13.269071875" size="1.016" layer="25" font="vector" ratio="15" rot="R20"/>
 <attribute name="VALUE" x="11.01875625" y="11.76299375" size="1.016" layer="21" font="vector" ratio="15" rot="R20"/>
 </element>
-<element name="C5" library="SparkFun-Capacitors" package="CAP-PTH-5MM" value="0.1uF" x="25.7" y="13.4" smashed="yes">
-<attribute name="NAME" x="22.90335625" y="15.786609375" size="1.016" layer="25" font="vector" ratio="15"/>
+<element name="C5" library="SparkFun-Capacitors" package="CAP-PTH-5MM" value="0.1uF" x="25.6" y="13.4" smashed="yes">
+<attribute name="NAME" x="22.80335625" y="15.786609375" size="1.016" layer="25" font="vector" ratio="15"/>
 </element>
 <element name="JP3" library="SparkFun-Connectors" package="1X02_NO_SILK" value="M021X02_NO_SILK" x="86.01123125" y="19.4878375" smashed="yes" rot="R90">
 <attribute name="NAME" x="85.536815625" y="18.36349375" size="1.016" layer="25" font="vector" ratio="15" rot="R270"/>
@@ -1452,15 +1452,15 @@ design rules under a new name.</description>
 <wire x1="57.7" y1="22.8" x2="57.9" y2="23" width="0.254" layer="1"/>
 <wire x1="57.9" y1="23" x2="57.9" y2="27.757859375" width="0.254" layer="1"/>
 <wire x1="57.9" y1="27.757859375" x2="57.3817875" y2="28.276071875" width="0.254" layer="1"/>
-<wire x1="23.2" y1="13.4" x2="23.2" y2="14.1" width="0.254" layer="1"/>
-<wire x1="23.2" y1="14.1" x2="26" y2="16.9" width="0.254" layer="1"/>
+<wire x1="23.1" y1="13.4" x2="23.1" y2="14" width="0.254" layer="1"/>
+<wire x1="23.1" y1="14" x2="26" y2="16.9" width="0.254" layer="1"/>
 <wire x1="28.734928125" y1="16.9" x2="28.808196875" y2="16.97326875" width="0.254" layer="1"/>
 <wire x1="28.808196875" y1="16.97326875" x2="28.808196875" y2="17.17326875" width="0.254" layer="1"/>
 <wire x1="26" y1="16.9" x2="28.534928125" y2="16.9" width="0.254" layer="1"/>
 <wire x1="28.534928125" y1="16.9" x2="28.808196875" y2="17.17326875" width="0.254" layer="1"/>
 <contactref element="S1" pad="1"/>
-<wire x1="23.2" y1="14.1" x2="22.2006" y2="14.1" width="0.254" layer="1"/>
-<wire x1="22.2006" y1="14.1" x2="21.3112" y2="14.9894" width="0.254" layer="1"/>
+<wire x1="23.1" y1="14" x2="22.3006" y2="14" width="0.254" layer="1"/>
+<wire x1="22.3006" y1="14" x2="21.3112" y2="14.9894" width="0.254" layer="1"/>
 <wire x1="28.534928125" y1="16.9" x2="28.6" y2="16.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
@@ -1568,7 +1568,7 @@ design rules under a new name.</description>
 <wire x1="29.86" y1="27.4" x2="29.86" y2="29.94" width="0.254" layer="1"/>
 <wire x1="29.86" y1="29.94" x2="29.8" y2="30.2" width="0.254" layer="1"/>
 <wire x1="29.8" y1="30.2" x2="29.86" y2="31.175334375" width="0.254" layer="1"/>
-<wire x1="29.86" y1="31.175334375" x2="29.029615625" y2="31.90571875" width="0.254" layer="1"/>
+<wire x1="29.86" y1="31.175334375" x2="28.729615625" y2="31.70571875" width="0.254" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U1" pad="28"/>
@@ -1640,7 +1640,7 @@ design rules under a new name.</description>
 <contactref element="FTDI" pad="1"/>
 <contactref element="C5" pad="2"/>
 <wire x1="26.8" y1="10.4" x2="26.8" y2="12" width="0.254" layer="1"/>
-<wire x1="26.8" y1="12" x2="28.2" y2="13.4" width="0.254" layer="1"/>
+<wire x1="26.8" y1="12" x2="28.1" y2="13.4" width="0.254" layer="1"/>
 </signal>
 <signal name="N$28">
 <contactref element="U2" pad="1"/>
