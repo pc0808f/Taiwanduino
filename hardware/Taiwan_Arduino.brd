@@ -357,22 +357,22 @@ Openlab.Taipei</text>
 <wire x1="84.5" y1="25.7" x2="85" y2="25.7" width="0.254" layer="25"/>
 <wire x1="84.5" y1="25.7" x2="84.5" y2="24.9" width="0.254" layer="25"/>
 <wire x1="84.5" y1="26.4" x2="84.5" y2="27.2" width="0.254" layer="25"/>
-<wire x1="44.1" y1="6.8" x2="43.5" y2="6.8" width="0.254" layer="25"/>
-<wire x1="43.5" y1="6.8" x2="43" y2="6.8" width="0.254" layer="25"/>
-<wire x1="43" y1="6.8" x2="43.5" y2="7.5" width="0.254" layer="25"/>
-<wire x1="43.5" y1="7.5" x2="44.1" y2="6.8" width="0.254" layer="25"/>
-<wire x1="44.1" y1="7.5" x2="43.5" y2="7.5" width="0.254" layer="25"/>
-<wire x1="43.5" y1="7.5" x2="43" y2="7.5" width="0.254" layer="25"/>
-<wire x1="43.5" y1="7.5" x2="43.5" y2="8.3" width="0.254" layer="25"/>
-<wire x1="43.5" y1="6.8" x2="43.5" y2="6" width="0.254" layer="25"/>
-<wire x1="29.5" y1="11.2" x2="28.9" y2="11.2" width="0.254" layer="25"/>
-<wire x1="28.9" y1="11.2" x2="28.4" y2="11.2" width="0.254" layer="25"/>
-<wire x1="28.4" y1="11.2" x2="28.9" y2="11.9" width="0.254" layer="25"/>
-<wire x1="28.9" y1="11.9" x2="29.5" y2="11.2" width="0.254" layer="25"/>
-<wire x1="29.5" y1="11.9" x2="28.9" y2="11.9" width="0.254" layer="25"/>
-<wire x1="28.9" y1="11.9" x2="28.4" y2="11.9" width="0.254" layer="25"/>
-<wire x1="28.9" y1="11.9" x2="28.9" y2="12.7" width="0.254" layer="25"/>
-<wire x1="28.9" y1="11.2" x2="28.9" y2="10.4" width="0.254" layer="25"/>
+<wire x1="43.8" y1="7.3" x2="43.2" y2="7.3" width="0.254" layer="25"/>
+<wire x1="43.2" y1="7.3" x2="42.7" y2="7.3" width="0.254" layer="25"/>
+<wire x1="42.7" y1="7.3" x2="43.2" y2="8" width="0.254" layer="25"/>
+<wire x1="43.2" y1="8" x2="43.8" y2="7.3" width="0.254" layer="25"/>
+<wire x1="43.8" y1="8" x2="43.2" y2="8" width="0.254" layer="25"/>
+<wire x1="43.2" y1="8" x2="42.7" y2="8" width="0.254" layer="25"/>
+<wire x1="43.2" y1="8" x2="43.2" y2="8.8" width="0.254" layer="25"/>
+<wire x1="43.2" y1="7.3" x2="43.2" y2="6.5" width="0.254" layer="25"/>
+<wire x1="29.9" y1="11.5" x2="29.3" y2="11.5" width="0.254" layer="25"/>
+<wire x1="29.3" y1="11.5" x2="28.8" y2="11.5" width="0.254" layer="25"/>
+<wire x1="28.8" y1="11.5" x2="29.3" y2="12.2" width="0.254" layer="25"/>
+<wire x1="29.3" y1="12.2" x2="29.9" y2="11.5" width="0.254" layer="25"/>
+<wire x1="29.9" y1="12.2" x2="29.3" y2="12.2" width="0.254" layer="25"/>
+<wire x1="29.3" y1="12.2" x2="28.8" y2="12.2" width="0.254" layer="25"/>
+<wire x1="29.3" y1="12.2" x2="29.3" y2="13" width="0.254" layer="25"/>
+<wire x1="29.3" y1="11.5" x2="29.3" y2="10.7" width="0.254" layer="25"/>
 <text x="8.2" y="6.9" size="1.4224" layer="21" font="vector" ratio="15">+</text>
 <text x="42.2" y="30.3" size="1.4224" layer="21" font="vector" ratio="15">+</text>
 <text x="89.8" y="25.7" size="1.4224" layer="21" font="vector" ratio="15" rot="R270">Bat</text>
@@ -1196,14 +1196,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="75.413" y="23.87" size="1.016" layer="25" font="vector" ratio="15"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="CAP-PTH-5MM" value="104" x="47.4" y="9.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.37" y="8.062" size="1.016" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="45.476" y="8.216" size="1.016" layer="27" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="46.262" y="7.63" size="1.016" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="46.316" y="6.524" size="1.016" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="D5" library="_JJG-parts" package="0204V" value="3.3V" x="42" y="7.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.2316" y="7.9664" size="1.016" layer="25" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="D2" library="_JJG-parts" package="0204V" value="3.3V" x="30.4" y="11.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="30.0684" y="9.4336" size="1.016" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="29.8684" y="9.5336" size="1.016" layer="25" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="J2" library="Connector " package="MINI-5P" value="" x="36.2" y="12.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.417" y="5.597" size="1.016" layer="25" font="vector" ratio="15"/>
