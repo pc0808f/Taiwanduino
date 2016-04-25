@@ -376,17 +376,18 @@ Openlab.Taipei</text>
 <text x="8.2" y="6.9" size="1.4224" layer="21" font="vector" ratio="15">+</text>
 <text x="42.2" y="30.3" size="1.4224" layer="21" font="vector" ratio="15">+</text>
 <text x="89.8" y="25.7" size="1.4224" layer="21" font="vector" ratio="15" rot="R270">Bat</text>
-<text x="94.9" y="13.7" size="1.4224" layer="21" font="vector" ratio="15" rot="R180">D5</text>
+<text x="91.8" y="14" size="1.4224" layer="21" font="vector" ratio="15" rot="R180">D5</text>
 <text x="50.4" y="12.1" size="1.016" layer="21" font="vector" ratio="15">22pf</text>
 <text x="57.3" y="12.1" size="1.016" layer="21" font="vector" ratio="15">22pf</text>
 <text x="47.7" y="37.9" size="1.016" layer="21" font="vector" ratio="15" rot="R180">104</text>
 <text x="21.2" y="20" size="1.016" layer="21" font="vector" ratio="15" rot="R180">Reset</text>
 <text x="22.9" y="14.5" size="1.016" layer="21" font="vector" ratio="15">104</text>
-<text x="76.4" y="8.3" size="1.4224" layer="21" font="vector" ratio="15">D6</text>
+<text x="78.5" y="9.8" size="1.4224" layer="21" font="vector" ratio="15" rot="R180">D6</text>
 <text x="74.5" y="26.4" size="1.4224" layer="21" font="vector" ratio="15">D8</text>
 <text x="33.9" y="34.1" size="1.4224" layer="21" font="vector" ratio="15">A2</text>
 <text x="23.4" y="29.5" size="1.4224" layer="21" font="vector" ratio="15">A4</text>
 <text x="14.7" y="21.4" size="1.4224" layer="21" font="vector" ratio="15">A5</text>
+<text x="66.8" y="8.6" size="1.4224" layer="21" font="vector" ratio="15">D7</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -1092,8 +1093,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="58.172725" y="35.879625" size="1.016" layer="25" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R11" library="SparkFun-Resistors" package="AXIAL-0.1" value="1K5" x="44.469140625" y="11.821278125" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.371921875" y="10.72485" size="1.016" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="46.378721875" y="9.528140625" size="1.016" layer="21" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="43.87515" y="10.971921875" size="1.016" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="45.071859375" y="10.878721875" size="1.016" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R12" library="SparkFun-Resistors" package="AXIAL-0.1" value="68" x="38.92036875" y="14.587821875" smashed="yes">
 <attribute name="NAME" x="40.62036875" y="12.557821875" size="1.016" layer="25" font="vector" ratio="15"/>
@@ -1122,11 +1123,11 @@ design rules under a new name.</description>
 <element name="TP2" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="29.029615625" y="31.90571875" rot="R290"/>
 <element name="TP4" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="20.183053125" y="24.260109375" rot="R290"/>
 <element name="TP6" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="63.69446875" y="10.9264875" rot="R290"/>
-<element name="TP8" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="90.375859375" y="16.8033125" rot="R200"/>
+<element name="TP8" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="90.575859375" y="17.7033125" rot="R200"/>
 <element name="TP9" library="SparkFun-Passives" package="PADBIG" value="TEST-POINT" x="80.3756375" y="27.159590625" rot="R200"/>
 <element name="FTDI" library="SparkFun-Connectors" package="1X06_LOCK" value="DTR" x="26.8" y="10.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.07" y="9.022" size="1.016" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="28.398" y="10.17" size="1.016" layer="27" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="28.378" y="9.97" size="1.016" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="27.97" y="9.102" size="1.016" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="RV1" library="SparkFun-Electromechanical" package="ALPS_POT" value="5k" x="69.229653125" y="20.472284375" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="RES-09177" x="69.229653125" y="20.472284375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1165,8 +1166,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="74.01984375" y="11.824878125" size="1.016" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R8" library="SparkFun-Resistors" package="AXIAL-0.1" value="1M" x="70.1" y="13.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="68.07" y="14.000003125" size="1.016" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="VALUE" x="68.141003125" y="11.600003125" size="1.016" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="67.97" y="15.000003125" size="1.016" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="67.941003125" y="12.800003125" size="1.016" layer="21" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R9" library="SparkFun-Resistors" package="AXIAL-0.1" value="1M" x="25.98326875" y="22.240115625" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.77826875" y="23.665115625" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
@@ -1591,11 +1592,11 @@ design rules under a new name.</description>
 <contactref element="R16" pad="P$2"/>
 <contactref element="TP8" pad="P$1"/>
 <wire x1="56.3" y1="19.9" x2="54.208196875" y2="17.17326875" width="0.4064" layer="1"/>
-<wire x1="90.375859375" y1="16.8033125" x2="90.8033125" y2="17.6033125" width="0.254" layer="1"/>
+<wire x1="90.575859375" y1="17.7033125" x2="90.8033125" y2="17.6033125" width="0.254" layer="1"/>
 <wire x1="91.1" y1="15.5" x2="77.178678125" y2="15.5" width="0.3048" layer="1"/>
 <wire x1="77.178678125" y1="15.5" x2="75.438746875" y2="17.23993125" width="0.3048" layer="1"/>
-<wire x1="91.1" y1="15.5" x2="91.2" y2="17.027453125" width="0.3048" layer="1"/>
-<wire x1="91.2" y1="17.027453125" x2="90.375859375" y2="16.8033125" width="0.3048" layer="1"/>
+<wire x1="91.1" y1="15.5" x2="90.7" y2="17.127453125" width="0.3048" layer="1"/>
+<wire x1="90.7" y1="17.127453125" x2="90.575859375" y2="17.7033125" width="0.3048" layer="1"/>
 <wire x1="62.3" y1="19.9" x2="56.3" y2="19.9" width="0.4064" layer="1"/>
 <wire x1="62.3" y1="19.9" x2="65" y2="17.2" width="0.4064" layer="1"/>
 <wire x1="65" y1="17.2" x2="73.878678125" y2="17.2" width="0.4064" layer="1"/>
