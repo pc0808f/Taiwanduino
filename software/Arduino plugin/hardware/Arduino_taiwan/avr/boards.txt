@@ -14,7 +14,7 @@ TaiwanArduino.build.f_cpu=16000000L
 TaiwanArduino.build.core=arduino:arduino
 TaiwanArduino.build.variant=arduino:eightanaloginputs
 TaiwanArduino.build.board=AVR_PROTRINKET
-TaiwanArduino.upload.tool=arduino:taiwan_arduino
+TaiwanArduino.upload.tool=taiwan_arduino:avrdude
 TaiwanArduino.upload.maximum_size=28672
 TaiwanArduino.upload.speed=115200
 
