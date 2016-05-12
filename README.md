@@ -5,7 +5,7 @@
 * 偷看我們還在設計中的外殼，請到 [/case] [cs]  
 
 尋求安裝說明請至我們的 [Wiki 頁面][wiki]  
-錯誤回報或聯絡作者請寄信到 d0123456789g@gmail.com (DC)
+  
   
     
 [English]  
@@ -15,8 +15,8 @@ Hi, this is the official project site of Taiwanduino
 * wanna take a peek at our BETA VERSION case, it's located at [/case] [cs]  
 
 for installation or assembly instructions , see our [Wiki page][wiki]  
-all bug reports are welcomed, please contact us at d0123456789g@gmail.com (DC)
-
+  
+  
 ![TaiwanDuino](https://farm8.staticflickr.com/7262/26611455670_e7bc85ddb6_z_d.jpg)  
 
 
