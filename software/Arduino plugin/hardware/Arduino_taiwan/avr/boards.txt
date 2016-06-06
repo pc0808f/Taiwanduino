@@ -12,13 +12,13 @@ TaiwanArduino.build.f_cpu=16000000L
 TaiwanArduino.build.core=arduino:arduino
 TaiwanArduino.build.variant=arduino:eightanaloginputs
 TaiwanArduino.build.board=AVR_PROTRINKET
-TaiwanArduino.upload.tool=taiwan_arduino:avrdude
+TaiwanArduino.upload.tool=arduino:usbtiny
 TaiwanArduino.upload.maximum_size=28672
 TaiwanArduino.upload.speed=115200
 
 
 ##############################################################
-#Serial/FTDI Programming 
+#Serial/FTDI Programming
 TaiwanArduinoftdi.name=Arduino Taiwan (FTDI)
 TaiwanArduinoftdi.bootloader.low_fuses=0xff
 TaiwanArduinoftdi.bootloader.high_fuses=0xde
