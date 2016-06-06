@@ -1,0 +1,38 @@
+# For more information see:
+# - https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# - https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#
+
+##############################################################
+#USB Programming
+Taiwanduino.name=Taiwanduino (USB)
+Taiwanduino.bootloader.tool=arduino:avrdude
+Taiwanduino.build.mcu=atmega328p
+Taiwanduino.build.f_cpu=16000000L
+Taiwanduino.build.core=arduino:arduino
+Taiwanduino.build.board=Taiwanduino
+Taiwanduino.build.variant=arduino:standard
+Taiwanduino.upload.tool=arduino:usbtiny
+Taiwanduino.upload.maximum_size=28672
+Taiwanduino.upload.speed=115200
+
+
+##############################################################
+#Serial/FTDI Programming
+Taiwanduinoftdi.name=Taiwanduino (FTDI)
+Taiwanduinoftdi.bootloader.low_fuses=0xff
+Taiwanduinoftdi.bootloader.high_fuses=0xd0
+Taiwanduinoftdi.bootloader.extended_fuses=0x06
+Taiwanduinoftdi.bootloader.file=optiboot/optiboot_atmega328.hex
+Taiwanduinoftdi.bootloader.unlock_bits=0x3F
+Taiwanduinoftdi.bootloader.lock_bits=0x0F
+Taiwanduinoftdi.bootloader.tool=arudino:avrdude
+Taiwanduinoftdi.build.mcu=atmega328p
+Taiwanduinoftdi.build.f_cpu=16000000L
+Taiwanduinoftdi.build.core=arduino:arduino
+Taiwanduinoftdi.build.board=Taiwanduino
+Taiwanduinoftdi.build.variant=arduino:standard
+Taiwanduinoftdi.upload.tool=arduino:avrdude
+Taiwanduinoftdi.upload.protocol=arduino
+Taiwanduinoftdi.upload.maximum_size=28672
+Taiwanduinoftdi.upload.speed=115200

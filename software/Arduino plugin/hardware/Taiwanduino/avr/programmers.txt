@@ -1,0 +1,4 @@
+usbtinyisp.name=Taiwanduino
+usbtinyisp.protocol=Taiwanduino
+usbtinyisp.program.tool=avrdude
+usbtinyisp.program.extra_params=
