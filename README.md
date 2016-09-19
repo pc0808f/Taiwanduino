@@ -5,6 +5,7 @@
 * 偷看我們還在設計中的外殼，請到 [/case] [cs]  
 
 尋求安裝說明請至我們的 [Wiki 頁面][wiki]  
+也歡迎到我們的 [粉絲專頁][fb] 聯繫、贊助或是購買  
   
   
     
@@ -15,6 +16,7 @@ Hi, this is the official project site of Taiwanduino
 * wanna take a peek at our BETA VERSION case, it's located at [/case] [cs]  
 
 for installation or assembly instructions , see our [Wiki page][wiki]  
+like our facebook [fan page][fb] for more info, online shop or donations!  
   
   
 ![TaiwanDuino](https://farm8.staticflickr.com/7262/26611455670_e7bc85ddb6_z_d.jpg)  
@@ -25,3 +27,4 @@ for installation or assembly instructions , see our [Wiki page][wiki]
    [hw]: <https://github.com/will127534/Taiwanduino/tree/master/hardware>
    [sw]: <https://github.com/will127534/Taiwanduino/tree/master/software>
    [cs]: <https://github.com/will127534/Taiwanduino/tree/master/case>
+   [fb]: <https://www.facebook.com/Taiwanduino>
