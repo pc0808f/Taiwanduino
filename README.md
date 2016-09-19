@@ -7,7 +7,7 @@
 尋求安裝說明請至我們的 [Wiki 頁面][wiki]  
 也歡迎到我們的 [粉絲專頁][fb] 聯繫、贊助或是購買  
   
-  
+***
     
 [English]  
 Hi, this is the official project site of Taiwanduino  
@@ -15,7 +15,7 @@ Hi, this is the official project site of Taiwanduino
 * our software stuff ( bootloader, driver, arduino schetch...etc ) is at [/software] [sw]  
 * wanna take a peek at our BETA VERSION case, it's located at [/case] [cs]  
 
-for installation or assembly instructions , see our [Wiki page][wiki]  
+for installation or assembly instructions , see our [wiki page][wiki]  
 like our facebook [fan page][fb] for more info, online shop or donations!  
   
   
