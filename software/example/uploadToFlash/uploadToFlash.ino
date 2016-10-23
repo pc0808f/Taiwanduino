@@ -27,32 +27,6 @@ void setup() {
   Serial.println(EEPROM_status);
 }
 
-void loop() {
-
-    
-  
-  if(Serial.available()>0){
-    char c = Serial.read();
-    if(c=='W'){
-      //Serial.println("Write_Start");
-      uint16_t startOffset = Serial.parseInt();
-      uint16_t dataLength = Serial.parseInt();
-      int dummy = Serial.read();
-      //Serial.print("Offest:");Serial.print(startOffset);Serial.print(" DataLength:");Serial.println(dataLength);
-      for(uint16_t i=0;i<dataLength/128+1;i++){
-        Serial.readBytes(buf, 128);
-        //uint8_t d = Serial.read();
-        writeBytes(startOffset+i*128);
-        //writeByte(startOffset+i,d);
-        Serial.println("A");
-        //Serial.print("Position:");Serial.print(startOffset+i);Serial.print(" inputData: ");Serial.print(d);
-        //Serial.print(" Read data:");Serial.println(readByte(startOffset+i));
-      }
-      Serial.println("Write Finish");
-    }
-  }
-  
-}
 uint8_t readByte(uint16_t address){
   digitalWrite(SLAVESELECT,LOW);
   SPI.transfer(READ); //read enable
@@ -92,4 +66,28 @@ void writeBytes(uint16_t address){
   delay(5);
 }
 
+void loop() { 
+  
+  if(Serial.available()>0){
+    char c = Serial.read();
+    if(c=='W'){
+      //Serial.println("Write_Start");
+      uint16_t startOffset = Serial.parseInt();
+      uint16_t dataLength = Serial.parseInt();
+      int dummy = Serial.read();
+      //Serial.print("Offest:");Serial.print(startOffset);Serial.print(" DataLength:");Serial.println(dataLength);
+      for(uint16_t i=0;i<dataLength/128+1;i++){
+        Serial.readBytes(buf, 128);
+        //uint8_t d = Serial.read();
+        writeBytes(startOffset+i*128);
+        //writeByte(startOffset+i,d);
+        Serial.println("A");
+        //Serial.print("Position:");Serial.print(startOffset+i);Serial.print(" inputData: ");Serial.print(d);
+        //Serial.print(" Read data:");Serial.println(readByte(startOffset+i));
+      }
+      Serial.println("Write Finish");
+    }
+  }
+  
+}
 
