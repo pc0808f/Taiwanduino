@@ -7,6 +7,11 @@
 尋求安裝說明請至我們的 [Wiki 頁面][wiki]  
 也歡迎到我們的 [粉絲專頁][fb] 聯繫、贊助或是購買  
   
+[Changelog]  
+2016/10/27  
+新增轉檔程式 tools/pcm_converter  
+清理範例程式碼
+
 ***
     
 [English]  
