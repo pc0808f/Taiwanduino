@@ -32,6 +32,7 @@ PAUSE
 DEL -Q "%ToolDir%%Libav%.7z"
 
 :init
+IF "%Libav32%"=="%Libav%" (SET Libav=win32)
 SET Libav=%ToolDir%%Libav%\usr\bin\
 TITLE TaiwanDuino Drag and Drop Audio Converter (libav) v1.0
 CD %Libav% || GOTO:error
