@@ -10,7 +10,7 @@ like our facebook [fan page][fb] for more info, online shop or donations!
   
 [Changelog]  
 
-2016/10/31  
+2016/11/11  
 suppport for the latest CapacitiveSensor library from the Library Manager  
 
 2016/10/31  
