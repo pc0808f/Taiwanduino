@@ -1,7 +1,9 @@
 # Software
   
-**Arduino plugin** contains our board configuration and the library to be used. If you have the latest Arduino IDE, you can also use the "Board Manager" and "Library Manager" to download and import these automatically.
- - Board Configs  
+**Arduino plugin** contains our board configuration.
+   If you have the latest Arduino IDE, you can also use *Board Manager* and *Library Manager* to download and import these automatically.
+   
+   - Board Configs  
 	 - [File] → [Preferences] → [Additional Board Manager URLs] and insert the URL below:
 	   https://will127534.github.io/Taiwanduino/package_Taiwanduino_index.json   
 	 - [Tools] → [Board: ""] → [Board Manager] and search for "Taiwanduino".  
@@ -10,6 +12,7 @@
  - External libraries   
 	 - [Sketch] → [Iclude library] → [Manage Libraries] and search for "CapacitiveSensor"  
 	 - Click the [Install] button.  
+	 - The library could be found in  [PaulStoffregen/CapacitiveSensor](https://github.com/PaulStoffregen/CapacitiveSensor) if you want to import it manually.
   
 **Driver** contains drivers for Windows systems ( it's a plug and play device for UNIX based systems like OS X or Linux ).  
   

@@ -9,12 +9,16 @@ for installation or assembly instructions , see our [wiki page][wiki]
 like our facebook [fan page][fb] for more info, online shop or donations!  
   
 [Changelog]  
+
 2016/10/31  
-holder v1.0 released
+suppport for the latest CapacitiveSensor library from the Library Manager  
+
+2016/10/31  
+holder v1.0 released  
 
 2016/10/27  
 add pcm audio converter tools/pcm_converter  
-cleanup example sketches
+cleanup example sketches  
   
 ***
   
