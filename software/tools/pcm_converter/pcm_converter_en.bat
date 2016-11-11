@@ -9,7 +9,8 @@ SET SampleRate=16000
 ::EEPROM/Internal flash play_eeprom()/play() function	: 8000
 
 SET LibavBuilds=http://builds.libav.org/windows/release-gpl/
-SET Libav32=libav-9.18-win32
+SET Libgcc=libgcc_s_sjlj-1.dll
+SET Libav32=libav-i686-w64-mingw32-11.7
 SET Libav64=libav-x86_64-w64-mingw32-11.7
 SET ToolDir=%~dp0
 ::Check for https://libav.org/download/  <<Windows Nightly and Release Builds>>
@@ -30,9 +31,12 @@ PAUSE
 "%ToolDir%wget.exe" %LibavBuilds%%Libav%.7z --no-check-certificate -O "%ToolDir%%Libav%.7z"
 "%ToolDir%7za.exe" -y -bd -o"%ToolDir%" x "%ToolDir%%Libav%.7z"
 DEL -Q "%ToolDir%%Libav%.7z"
+IF "%Libav32%"=="%Libav%" (
+	"%ToolDir%wget.exe" %LibavBuilds%../%Libgcc% --no-check-certificate -O "%ToolDir%%Libgcc%"
+	MOVE /Y "%ToolDir%%Libgcc%" "%ToolDir%%Libav%\usr\bin\%Libgcc%"
+)
 
 :init
-IF "%Libav32%"=="%Libav%" (SET Libav=win32)
 SET Libav=%ToolDir%%Libav%\usr\bin\
 TITLE TaiwanDuino Drag and Drop Audio Converter (libav) v1.0
 CD %Libav% || GOTO:error
