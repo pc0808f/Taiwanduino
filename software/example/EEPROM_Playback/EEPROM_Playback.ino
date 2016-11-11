@@ -12,15 +12,16 @@
 #define Threadhold 200		//scan button threadhold
 
 int input_pin[7] = {A2,A4,A5,5,6,7,8};	//define touchpad pinouts
-CapacitiveSensor input[7];				//create an CapacitiveSensor object for use in this sketch
+CapacitiveSensor *input[7];				//create an CapacitiveSensor object for use in this sketch
 
-const int sounddata_length=20062;		//insert "Data Count:xxxxx" value from wav2uart.exe;
+const int sounddata_length=11888;		//insert "Data Count:xxxxx" value from wav2uart.exe;
 
 int scanbutton(){
 	int total[7] = {0};
 	for(byte i=0;i<7;i++){
-		total[i] =  input[i].capacitiveSensor(30);
+		total[i] =  input[i]->capacitiveSensor(30);
 		if(total[i] >= Threadhold){
+			/*uncomment while debugging*/
 			Serial.print(F("Button "));
 			Serial.println(i);
 			return i;
@@ -74,7 +75,7 @@ void setup(){
 	
 	//Initialize Capacitive Sensor
 	Serial.print(F("Initializing Capacitive Sensor..."));
-	for(int i=0;i<7;i++) input[i].CapacitiveSensor_set(A3,input_pin[i]);
+	for(int i=0;i<7;i++)input[i] = new CapacitiveSensor(A3,input_pin[i]);
 	Serial.println(F("done."));
 
 	TCCR1B = (1 << WGM12) | (0 << WGM13)| (1 << CS10);
