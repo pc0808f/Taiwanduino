@@ -1,9 +1,9 @@
 # Taiwanduino  
   
 Hi, this is the official project site of Taiwanduino  
-* for our hardware design, please goto [/hardware] [hw]  
-* our software stuff ( bootloader, driver, arduino schetch...etc ) is at [/software] [sw]  
-* our holder model has been released, it's located at [/holder] [hd]  
+* for our hardware design, please goto [/hardware][hw]  
+* our software stuff ( bootloader, driver, arduino schetch...etc ) is at [/software][sw]  
+* our holder model has been released, it's located at [/holder][hd]  
 
 for installation or assembly instructions , see our [wiki page][wiki]  
 like our facebook [fan page][fb] for more info, online shop or donations!  
