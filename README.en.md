@@ -10,9 +10,9 @@ like our facebook [fan page][fb] for more info, online shop or donations!
   
 [Changelog]  
 2017/9/24  
-add a 7 tones simple instrument example sketch  
-  
-2016/11/11  
+add a 7 tones simple instrument example sketch  
+
+2016/11/11  
 suppport for the latest CapacitiveSensor library from the Library Manager  
 
 2016/10/31  
