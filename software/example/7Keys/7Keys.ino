@@ -59,6 +59,7 @@ void setup(){
 	TCCR1A = (1 << COM1A1)|(1 << WGM10) | (0 << WGM11);
 
 }
+//frequency of tone C D E F G A B
 float tone_f[7] = {261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 493.88};
 byte keypressed = 0;
 byte octave = 0;
@@ -70,6 +71,7 @@ void loop(){
 		digitalWrite(13,HIGH);
 		//125ms delay generates sine wave in 500Hz
 		//(125*500)ms generates 1Hz 
+		//(125*500)ms/(tone_f[n]) generates tone_f[n] (hz)
 		play(sound1_data, sound1_length, (uint32_t)((float)(125*500/tone_f[6-key])) << octave, 200);
 		digitalWrite(13,LOW);
 	}
