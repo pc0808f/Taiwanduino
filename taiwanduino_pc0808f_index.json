@@ -14,12 +14,12 @@
             "online": "https://github.com/pc0808f/Taiwanduino"
           },
           "url": "https://pc0808f.github.io/Taiwanduino/Taiwanduino-1.0.1.zip",
-          "checksum": "SHA-256:9f86477bf227f7d5dc18f99f9061802f1e4eb3628b664a35258ff16d5d2d2256",
+          "checksum": "SHA-256:93af470271619a63cf5b13cc98090dca501e8aa9714315f6a05ede06d5510127",
           "name": "Taiwanduino",
           "version": "1.0.1",
           "architecture": "avr",
           "archiveFileName": "Taiwanduino-1.0.1.zip",
-          "size": 31719,
+          "size": 123674,
           "toolsDependencies": [],
           "boards": [
             {
