@@ -5,7 +5,7 @@
    
    - Board Configs  
 	 - [File] → [Preferences] → [Additional Board Manager URLs] and insert the URL below:
-	   https://will127534.github.io/Taiwanduino/package_Taiwanduino_index.json   
+	   https://pc0808f.github.io/Taiwanduino/taiwanduino_pc0808f_index.json   
 	 - [Tools] → [Board: ""] → [Board Manager] and search for "Taiwanduino".  
 	 - Click the [Install] button.  
  

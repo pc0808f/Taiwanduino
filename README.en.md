@@ -8,8 +8,12 @@ Hi, this is the official project site of Taiwanduino
 for installation or assembly instructions , see our [wiki page][wiki]  
 like our facebook [fan page][fb] for more info, online shop or donations!  
   
-[Changelog]  
-2017/9/24  
+[Changelog]
+2025/10/28 (pc0808f fork)
+Updated board manager URL to pc0808f fork version
+Re-committed zip file for GitHub Pages sync
+
+2017/9/24
 add a 7 tones simple instrument example sketch  
 
 2016/11/11  
