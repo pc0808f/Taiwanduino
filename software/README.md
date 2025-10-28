@@ -1,7 +1,9 @@
 # Software
 
-**Arduino plugin** contains our board configuration
-   If you have the latest Arduino IDE, you can also use *Board Manager* and *Library Manager* to download and import these automatically
+**Board Manager Installation** (Recommended)
+   If you have the latest Arduino IDE, you can use *Board Manager* and *Library Manager* to download and install automatically
+
+   Note: The board configuration files are located in `/hardware/Taiwanduino/avr/` directory
 
  - Board Configs
 	 - [File] → [Preferences] → [Additional Board Manager URLs] and insert the URL below:
