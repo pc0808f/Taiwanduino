@@ -32,8 +32,8 @@ Cleanup example sketches
 
 ![TaiwanDuino](https://farm8.staticflickr.com/7262/26611455670_e7bc85ddb6_z_d.jpg)
 
-   [wiki]: <https://github.com/will127534/Taiwanduino/wiki>
-   [hw]: <https://github.com/will127534/Taiwanduino/tree/master/hardware>
-   [sw]: <https://github.com/will127534/Taiwanduino/tree/master/software>
-   [hd]: <https://github.com/will127534/Taiwanduino/tree/master/holder>
+   [wiki]: <https://github.com/pc0808f/Taiwanduino/wiki>
+   [hw]: <https://github.com/pc0808f/Taiwanduino/tree/master/hardware>
+   [sw]: <https://github.com/pc0808f/Taiwanduino/tree/master/software>
+   [hd]: <https://github.com/pc0808f/Taiwanduino/tree/master/holder>
    [fb]: <https://www.facebook.com/Taiwanduino>
