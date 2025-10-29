@@ -9,7 +9,12 @@
 也歡迎到我們的 [粉絲專頁][fb] 聯繫、贊助或是購買
 
 [更新日誌]
-2025/10/28 (pc0808f fork)
+2025/10/29 (pc0808f fork) - v1.0.2
+修復：透過板子管理員安裝後，範例程式現在可以在 Arduino IDE 中正常顯示
+新增 library.properties 檔案以支援 bundled library
+更新板子套件結構以符合 Arduino 官方規範
+
+2025/10/28 (pc0808f fork) - v1.0.1
 更新板子管理員 URL 至 pc0808f fork 版本
 重新提交 zip 檔案以同步 GitHub Pages
 

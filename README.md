@@ -9,7 +9,12 @@ For installation or assembly instructions, see our [Wiki page][wiki]
 Like our facebook [fan page][fb] for more info, online shop or donations!
 
 [Changelog]
-2025/10/28 (pc0808f fork)
+2025/10/29 (pc0808f fork) - v1.0.2
+Fixed: Examples now visible in Arduino IDE after Board Manager installation
+Added library.properties file for bundled library
+Updated board package structure to follow Arduino specification
+
+2025/10/28 (pc0808f fork) - v1.0.1
 Updated board manager URL to pc0808f fork version
 Re-committed zip file for GitHub Pages sync
 
