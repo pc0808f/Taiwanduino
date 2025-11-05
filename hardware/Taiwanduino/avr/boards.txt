@@ -13,10 +13,9 @@ Taiwanduino.build.core=arduino:arduino
 Taiwanduino.build.board=Taiwanduino
 Taiwanduino.build.variant=arduino:standard
 Taiwanduino.upload.tool=avrdude
-Taiwanduino.upload.protocol=usbasp
+Taiwanduino.upload.protocol=Taiwanduino
 Taiwanduino.upload.maximum_size=28672
 Taiwanduino.upload.speed=115200
-Taiwanduino.upload.extra_params=-P usb:1209:5457
 
 
 ##############################################################
