@@ -13,6 +13,28 @@
           "help": {
             "online": "https://github.com/pc0808f/Taiwanduino"
           },
+          "url": "https://pc0808f.github.io/Taiwanduino/Taiwanduino-1.0.3.zip",
+          "checksum": "SHA-256:8391168f6d0b5a9d016ae89bd78bbd7ab11267bc13c576c8aea2f26dc7ebcc92",
+          "name": "Taiwanduino",
+          "version": "1.0.3",
+          "architecture": "avr",
+          "archiveFileName": "Taiwanduino-1.0.3.zip",
+          "size": 124469,
+          "toolsDependencies": [],
+          "boards": [
+            {
+              "name": "Taiwanduino (FTDI)"
+            },
+            {
+              "name": "Taiwanduino (USB)"
+            }
+          ]
+        },
+        {
+          "category": "Taiwanduino",
+          "help": {
+            "online": "https://github.com/pc0808f/Taiwanduino"
+          },
           "url": "https://pc0808f.github.io/Taiwanduino/Taiwanduino-1.0.2.zip",
           "checksum": "SHA-256:94ff02aa2602a72119156c4ab8c0421fbdb3d1a634df3c61cb61dc7c9f807f17",
           "name": "Taiwanduino",
