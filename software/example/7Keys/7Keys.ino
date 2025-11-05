@@ -72,7 +72,7 @@ void loop(){
 		//125ms delay generates sine wave in 500Hz
 		//(125*500)ms generates 1Hz 
 		//(125*500)ms/(tone_f[n]) generates tone_f[n] (hz)
-		play(sound1_data, sound1_length, (uint32_t)((float)(125*500/tone_f[6-key])) << octave, 200);
+		play(sound1_data, sound1_length, (uint32_t)((float)(125.0*500.0/tone_f[6-key])) << octave, 200);
 		digitalWrite(13,LOW);
 	}
 	if(keypressed == 0b01111111){
