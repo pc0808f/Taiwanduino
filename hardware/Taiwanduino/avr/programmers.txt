@@ -1,9 +1,19 @@
-usbtinyisp.name=USBtinyISP
+taiwanduino_usbasp.name=Taiwanduino-USBasp (VID:1209 PID:5457)
+taiwanduino_usbasp.protocol=usbasp
+taiwanduino_usbasp.program.tool=avrdude
+taiwanduino_usbasp.program.extra_params=-P usb:1209:5457
+
+taiwanduino_usbtiny.name=Taiwanduino-USBtiny
+taiwanduino_usbtiny.protocol=usbtiny
+taiwanduino_usbtiny.program.tool=avrdude
+taiwanduino_usbtiny.program.extra_params=
+
+usbtinyisp.name=USBtinyISP (standard)
 usbtinyisp.protocol=usbtiny
 usbtinyisp.program.tool=avrdude
 usbtinyisp.program.extra_params=
 
-usbasp.name=USBasp
+usbasp.name=USBasp (standard)
 usbasp.protocol=usbasp
 usbasp.program.tool=avrdude
-usbasp.program.extra_params=-P usb:1209:5457
+usbasp.program.extra_params=
