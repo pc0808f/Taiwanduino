@@ -12,9 +12,10 @@ Taiwanduino.build.f_cpu=16000000L
 Taiwanduino.build.core=arduino:arduino
 Taiwanduino.build.board=Taiwanduino
 Taiwanduino.build.variant=arduino:standard
-Taiwanduino.upload.tool=arduino:usbtiny
+Taiwanduino.upload.tool=arduino:usbasp
 Taiwanduino.upload.maximum_size=28672
 Taiwanduino.upload.speed=115200
+Taiwanduino.upload.extra_params=-P usb:1209:5457
 
 
 ##############################################################

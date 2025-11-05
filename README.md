@@ -9,6 +9,10 @@ For installation or assembly instructions, see our [Wiki page][wiki]
 Like our facebook [fan page][fb] for more info, online shop or donations!
 
 [Changelog]
+2025/11/05 (pc0808f fork) - v1.0.3
+Fixed: Support for USBasp programmer with USB ID 1209:5457
+Changed: Default upload tool changed from USBtiny to USBasp
+
 2025/10/29 (pc0808f fork) - v1.0.2
 Fixed: Examples now visible in Arduino IDE after Board Manager installation
 Added library.properties file for bundled library
