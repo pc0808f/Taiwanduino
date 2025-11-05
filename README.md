@@ -10,10 +10,10 @@ Like our facebook [fan page][fb] for more info, online shop or donations!
 
 [Changelog]
 2025/11/05 (pc0808f fork) - v1.0.3
-Fixed: Support for USBasp programmer with USB ID 1209:5457
-Changed: Default upload tool changed from USBtiny to USBasp
-Added: New programmer options "Taiwanduino-USBasp (VID:1209 PID:5457)" and "Taiwanduino-USBtiny" in Tools menu
-Fixed: platform.txt upload pattern now correctly passes extra parameters
+Fixed: Support for USBasp/USBtiny programmer with custom USB ID 1209:5457
+Changed: Reverted to v1.0.2 style using arduino:usbtiny as upload tool
+Programmer: "Taiwanduino" option available (uses local avrdude.conf for custom USB IDs)
+Note: Direct upload uses Arduino core tools; "Upload Using Programmer" supports VID:1209 PID:5457
 
 2025/10/29 (pc0808f fork) - v1.0.2
 Fixed: Examples now visible in Arduino IDE after Board Manager installation

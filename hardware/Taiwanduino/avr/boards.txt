@@ -12,10 +12,8 @@ Taiwanduino.build.f_cpu=16000000L
 Taiwanduino.build.core=arduino:arduino
 Taiwanduino.build.board=Taiwanduino
 Taiwanduino.build.variant=arduino:standard
-Taiwanduino.upload.tool=avrdude
-Taiwanduino.upload.protocol=Taiwanduino
+Taiwanduino.upload.tool=arduino:usbtiny
 Taiwanduino.upload.maximum_size=28672
-Taiwanduino.upload.maximum_data_size=2048
 Taiwanduino.upload.speed=115200
 
 

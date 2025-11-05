@@ -10,10 +10,10 @@
 
 [更新日誌]
 2025/11/05 (pc0808f fork) - v1.0.3
-修復：支援 USB ID 1209:5457 的 USBasp 燒錄器
-變更：將預設燒錄工具從 USBtiny 改為 USBasp
-新增：在燒錄器選單中新增「Taiwanduino-USBasp (VID:1209 PID:5457)」和「Taiwanduino-USBtiny」選項
-修正：platform.txt 的上傳命令現在正確傳遞額外參數
+修復：支援 USB ID 1209:5457 的 USBasp/USBtiny 燒錄器
+變更：回歸 v1.0.2 風格，使用 arduino:usbtiny 作為上傳工具
+燒錄器：提供 "Taiwanduino" 選項（使用本地 avrdude.conf 支援自訂 USB ID）
+說明：直接上傳使用 Arduino 核心工具，使用燒錄器上傳時支援 VID:1209 PID:5457
 
 2025/10/29 (pc0808f fork) - v1.0.2
 修復：透過板子管理員安裝後，範例程式現在可以在 Arduino IDE 中正常顯示
